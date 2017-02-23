@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--------------------------------BootStrap------------------------------------------------------------------------------------------------>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--google fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Averia Gruesa Libre' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+	
+<!---------------------------------------------------------------------------------------------------------------------------------->
+	<link href='style.css' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+</head>
+<body>
+	
+<!--Header-->
+	<div class="container-fluid header">
+		<div class="col-lg-12 text-right">
+			<ul class="list-inline">
+                <li><a href="#"><i class="fa fa-envelope-o"></i> contact@zunroof.com </a>
+                </li>
+                <li><a href="#"><i class="fa fa-phone"></i> +1241111111111</a>
+                </li>
+			</ul>
+		</div>
+	</div>
+<!----------->
+<!--Menu Bar-->
+	<div  class="nav navbar-inverse mainNav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobileMenu">
+                   <i class="fa fa-bars" id="menusmall" style="color:white">Menu</i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="font-family:Courgette;font-size:250%">ZunRoof</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mobileMenu">
+				<ul class="nav navbar-nav navbar-left"  >
+					 <li ><a href="#"><i class="fa fa-facebook"></i></a></li>
+					 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					 <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+                <ul class="nav navbar-nav navbar-right" >
+                    <li> <a href="#">Why Solar</a></li>
+                    <li><a href="#">Why ZunRoof</a></li>
+                    <li> <a href="#">Blog</a></li>
+                    <li> <a href="team.html">Team</a></li>
+                    <li><a href="testi.html">Testimanials</a></li>
+					<li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+    </div>
+<!----------->
+<div class="container-fluid">
+	<div class="col-lg-9">
+<!---Slider----->
+	
+	<div id="myCarousel"  class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner"  role="listbox">
+			<div id="a1" class="item active" style="background-image:url('img/s2.jpg');">
+			</div>
+			<div id="a1" class="item" style="background-image:url('img/s1.jpg');">
+			</div>
+			<div id="a1" class="item " style="background-image:url('img/s3.jpg');">
+			</div>
+		</div>
+		<a class="prev left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" style="color:white;opacity:0.2" ></span>
+		</a>
+		<a class="next right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"  style="color:white;opacity:0.2"></span>
+		</a>
+	</div>
+<!----------->
+<!---Form--->
+	<div class="container-fluid fm">
+		<h1 class="text-center" >Convert to zunroof and Make Money</h1><hr style="border:solid green 1px">
+		<form class="form-group text-center">
+			
+			<div class="col-lg-12"  style="padding:20px">
+				<p class="budget" style="font-size:200%;font-family:Averia Gruesa Libre;color:#046422"> &#x20B9; Your Monthly Bill</p>
+				<input type="range" name="range" id="range" min="2000" max="30000" step="50" value="175"  >
+				<output for="range" class="output" style="font-size:200%;font-family:Baumans;color:#920D0D"></output>
+				<script>
+					$('#range').on("change", function() {
+					$('.output').val("Rs "+" "+this.value  );
+					}).trigger("change");
+				</script>
+			</div>
+			<div class="row">
+			<div class="col-lg-6 ">
+				<span class="glyphicon glyphicon-user"></span>
+				<input class="form-countrol fc" type="text" name="name" placeholder="Name">
+			</div>
+			<div class="col-lg-6 ">
+				<span class="glyphicon glyphicon-envelope"></span>
+				<input class="form-countrol fc" type="email" name="email" placeholder="Email">
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-lg-6">
+				<span class="glyphicon glyphicon-phone"></span>
+				<input class="form-countrol fc" type="text" name="number" placeholder="Mobile">
+			</div>
+			<div class="col-lg-6 ">
+				<span class="glyphicon glyphicon-pushpin" ></span>
+				<input class="form-countrol fc"  type="text" name="pin" placeholder="Pin Code">
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-lg-12 text-center">
+				<button type="button" class="btn btn-info"  >Go Solar</button>
+			</div>
+			</div>
+		</form>
+	</div>
+<!----------->
+<!---Why Solar-------->
+	<div class="container-fluid why" >
+		<h1>Why Solar</h1><hr style="border:solid #446747 1px">
+			
+				<div class="col-lg-3 col-sm-6 text-center ">
+					<img src="img/a.png" class="img img-circle img-responsive" style="margin:auto"></img>
+					<p>Solar power generation has emerged </br>as one of the most rapidly Growing </br> renewable sources of electricity. </br>Solar power generation has several </br>advantages over other forms of </br>electricity generation.</p>
+				</div>
+				<div class="col-lg-3 col-sm-6 text-center ">
+					<img src="img/b.png" class="img img-circle img-responsive" style="margin:auto"></img>
+					<p>Solar power generation has emerged </br>as one of the most rapidly growing</br> renewable sources of electricity. </br>Solar power generation has several </br>advantages over other forms of </br>electricity generation.</p>
+				</div>
+				<div class="col-lg-3 col-sm-6 text-center " >
+					<img src="img/c.png" class="img img-circle img-responsive" style="margin:auto"></img>
+					<p>Solar power generation has emerged </br>as one of the most rapidly growing </br>renewable sources of electricity. </br>Solar power generation has several </br>advantages over other forms of </br>electricity generation.</p>
+				</div>
+				<div class="col-lg-3 col-sm-6 text-center " >
+					<img src="img/d.png" class="img img-circle img-responsive" style="margin:auto"></img>
+					<p>Solar power generation has emerged </br>as one of the most rapidly growing</br> renewable sources of electricity. </br>Solar power generation has several </br>advantages over other forms of </br>electricity generation.</p>
+				</div>
+	</div>
+<!----------->
+<!---Blog--->
+	<div class="container-fluid blog" >
+		
+			<h1>Blog - For all Your Solar Related Questions</h1><hr style="border:solid green 1px">
+			<div class="col-lg-9 ">
+				<h1>Technology</h1><hr style="border:solid grey 1px">
+				<h2>Software Research and the Industry</h2>
+				<p>Holding a doctorate in computer science,</br> Dirk Riehle helped develop a unified modeling</br> language virtual machine starting in the late 1990s.</br> He also co-founded a software startup and now </br>teaches open-source software at the Friedrich-Alexander </br>University of Erlangen-Nürnberg. His blog covers all things </br>computer science, as well as software system architecture and design</p>
+			</div>
+			<div class="col-lg-3" >
+				<img src="http://thesoulofdesign.com/wp-content/uploads/2016/05/Blogger_icon.svg_.png" class="img img-responsive img-thumbnail"></img>
+			</div>
+		
+	</div>
+<!--------------------->
+	</div>
+	<div class="col-lg-3">	
+			<div class="container-fluid">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDroidTechno94%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="500px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+			</iframe>
+			</div>
+			<div class="container-fluid">
+				<iframe src ="https://droidtechnoin.wordpress.com/" width="100%" height="500">
+			</div>
+			<div class="container-fluid">
+				<iframe src ="https://plus.google.com/u/0/" width="100%" height="500">
+				<p>Your browser does not support iFrames.</p>
+				</iframe>
+			</div>
+	</div>
+
+</div>
+<!---footer---->
+	<div class="container-fluid footer" >
+		
+			<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 text-left">
+				<p>Zunroof Tech Pvt Lmt</p>
+				<a href="#" ><i class="fa fa-envelope-o"></i> contact@zunroof.com </a></br>
+				<a href="#" ><i class="fa fa-phone"></i> +1241111111111</a>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6 text-right">
+				<p>2017 &copy; All Right Reserved</p>
+			</div>
+		
+	</div>
+<!----------->
+	<div class="fix">
+		<a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a>
+	</div>
+	<script>
+	$(document).ready(function(){
+			$(".fix").click(2000,function(){
+				$('html, body').animate({
+					scrollTop: $(".header").offset().top }, 1500);
+			});
+		});
+	</script>
+</body>
+</html>
